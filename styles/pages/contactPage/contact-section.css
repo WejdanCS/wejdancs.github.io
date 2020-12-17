@@ -48,7 +48,10 @@
     height: 30px; 
     box-sizing: border-box; 
 }
-.contact-input::-moz-placeholder, textarea{
+.contact-input::-moz-placeholder, textarea::-moz-placeholder{
+    color: rgb(255, 255, 255);
+}
+.contact-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder{
     color: rgb(255, 255, 255);
 }
 
