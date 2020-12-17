@@ -1,9 +1,11 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 *{
 
     padding: 0px;
     margin: 0px;
-    font-family: 'Perpetua';
+    /* font-family: 'Perpetua'; */
+    font-family: 'Lora', serif;
 }
 
 
