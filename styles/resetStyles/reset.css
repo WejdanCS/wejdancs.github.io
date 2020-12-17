@@ -83,12 +83,12 @@ textarea
 	/* Browsers have different default form fonts */
 	font-size:13px;
     font-family: 'Lora', serif;
-    color: white;
+    /* color: white; */
 
 }
-input[placeholder]{
+/* input[placeholder]{
     color: white;
-}
+} */
 
 /* Remove the stupid outer glow in Webkit */
 input:focus

@@ -9,12 +9,12 @@
     /* align-self: center; */
     align-items: center;
     gap: 2px;
+    box-sizing: border-box;
 
 }
   
 
 .tag{
-
     background-color: white;
     border: 1px solid #488991;
     padding: 1px 5px;
@@ -23,7 +23,7 @@
     border-radius: 18px;
     font-size: 14px;
     color: #777474;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     text-align: center;
     /* width: 50%; */
     /* height: 50%; */

@@ -48,6 +48,9 @@
     height: 30px; 
     box-sizing: border-box; 
 }
+.contact-input::-moz-placeholder, textarea{
+    color: rgb(255, 255, 255);
+}
 
 
 #send-button{
