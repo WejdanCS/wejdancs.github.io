@@ -104,6 +104,7 @@
     outline-style: none;
     grid-area: articles-link;
     margin-left: 150px;
+    padding: 0px 5px;
 }
 
 .article-link:hover{
