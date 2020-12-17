@@ -86,6 +86,9 @@ textarea
     color: white;
 
 }
+input[placeholder]{
+    color: white;
+}
 
 /* Remove the stupid outer glow in Webkit */
 input:focus
