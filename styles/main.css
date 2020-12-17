@@ -1,0 +1,46 @@
+@import 'layout/header.css';
+@import 'pages/homePage/info-section.css';
+@import 'resetStyles/reset.css';
+@import 'main-colors.css';
+@import 'pages/homePage/articles-section.css';
+@import 'pages/contactPage/contact-section.css';
+@import 'layout/footer-section.css';
+@import 'pages/postPage/postPage.css';
+@import 'layout/tags.css';
+
+
+.layout-page{
+    background-color: #F7F7F7;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas: 
+    "header"
+    "blogInfo"
+    "articles"
+    "contact"
+    "footer";
+}
+/* media query */
+@media (min-width:768px){
+    .layout-page{
+        background-color: #F7F7F7;
+        display: grid;
+        /*  */
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto;
+    }
+    
+
+}
+
+@media (min-width:900px){
+    .layout-page{
+        background-color: #F7F7F7;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto;
+    }
+
+}
+

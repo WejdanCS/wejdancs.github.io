@@ -1,0 +1,27 @@
+
+
+.category-container{
+    display: flex;
+    flex-direction: row;
+}
+  
+
+.tag{
+    background-color: white;
+    border: 1px solid #488991;
+    padding: 1px 5px;
+    margin-right: 5px;
+    border-radius: 18px;
+    font-size: 14px;
+    color: #777474;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+
+.tag:hover{
+    background-color: #488991;
+    color: white;
+    border: none;
+}

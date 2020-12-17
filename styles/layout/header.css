@@ -1,0 +1,151 @@
+
+/* header styles */
+.header-section{
+    grid-area: header;
+    font-size: 20px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;  
+    margin-top: 10px;
+    padding-bottom: 5px; 
+    /* background-color: #777474; */
+
+}
+
+
+.logo-name{
+    align-self: center;
+}
+
+
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+}
+
+
+.menu-item:hover{
+    color: white;
+    background-color: #488991;
+    padding: 3px 15px;
+    border-radius: 10px;
+}
+
+
+.search-box{
+    background-color: #effcf3;
+    width: 260px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 4px;
+    box-shadow: #d7f4e0 5px 5px 15px;
+}
+
+
+#search-input{
+    border: none;
+    /* border: 1px solid #f05034; */
+    width: 260px;
+    height: 25px;
+    background-color: transparent;
+    outline-style: none;
+}
+
+
+#search-input[placeholder]{
+    color:#265c63;
+}
+
+
+#search-icon{
+    background-image: url('../../assets/icons/search-24px.svg');
+    background-size:cover;
+    width: 24px;
+    height: 24px;
+    /* padding-right: 5px; */
+    border: none;
+    background-color: transparent;
+    outline-style: none;
+}
+
+
+
+/* media query */
+@media (min-width:768px){
+
+
+    .header-section{
+        flex-direction: column; 
+        gap: 10px;
+        width: 100%;
+        padding-bottom: 15px;  
+    }
+
+
+    .nav-bar{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+    .menu{
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+        /* align-content: center; */
+        align-items: center;
+    }
+
+
+}
+
+
+@media (min-width:900px){
+
+
+    .header-section{
+        flex-direction: row; 
+        gap: 0px; 
+        box-sizing: border-box; 
+    }
+
+
+    .nav-bar{
+        width: 70%;
+        flex-direction: row;
+        justify-content:space-between;
+        margin-right: 15px;
+        /* background-color: #ff2323; */
+    }
+
+
+    .menu{
+        gap: 15px;
+        /* background-color: #cef0d8; */
+    }
+
+    
+    .logo-name{
+        width: 45%;
+        margin-left: 15px;
+        /* background-color: #83d7e2; */
+
+    }
+}
