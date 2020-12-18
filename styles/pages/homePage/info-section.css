@@ -95,16 +95,17 @@
     color: rgb(255, 255, 255);
     background-color: #488991;
     border: none;
-    height: 40px;
-    width: 126px;
+    height: 50px;
+    width: 140px;
     border-radius: 55px;
-    font-size: large;
+    box-sizing: border-box;
+    font-size: 16px;
     font-weight: bold;
     text-align: center;
     outline-style: none;
     grid-area: articles-link;
-    margin-left: 150px;
-    padding: 0px 5px;
+    /* margin-left: 150px; */
+    /* padding: 0px 2px; */
 }
 
 .article-link:hover{
