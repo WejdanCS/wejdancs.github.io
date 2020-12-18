@@ -22,7 +22,7 @@
     /* margin-right: 5px; */
     margin:3px 0px;
     border-radius: 18px;
-    font-size: 14px;
+    font-size: 12px;
     /* color: #777474; */
     box-sizing: border-box;
     text-align: center;
@@ -41,29 +41,4 @@
     background-color: #488991;
     color: white;
     border: none;
-}
-/* media query */
-@media (min-width:768px){
-    .tag{
-        padding: 3px 5px;
-        /* margin:3px 0px; */
-        font-size: 14px;
-        /* width: 50%; */
-        /* height: 80%; */
-    
-    }
-    
-}
-
-@media (min-width:900px){
- 
-    .tag{
-        padding: 3px 3px;
-        /* margin-right: 5px; */
-        /* margin:3px 0px; */
-        font-size: 14px;
-        /* width: 15%; */
-        /* height: 80%; */
-    
-    }
 }
