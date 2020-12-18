@@ -44,10 +44,10 @@
 
 .card{
        
-        height: 415px;
+        /* height: 415px; */
         width: 330px;
         min-width: 79%;
-        min-height: 415px;
+        min-height: 330px;
         margin: auto;
         border-radius: 24px;
         box-shadow: rgba(0, 0, 0, 15%) 0px 10px 11px;
@@ -55,6 +55,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
+        gap: 5px;
         
     }
 
@@ -80,7 +81,7 @@
 
     
     #bg-articles{
-        height: 150;
+        height: 180px;
         width: 100%;
         
       
@@ -176,7 +177,7 @@
     @media (min-width:900px){
         
         .card{
-            height: 350px;
+            height: 360px;
             width: 90%;  
         }
 
